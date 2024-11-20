@@ -26,7 +26,7 @@ public class OrderTest {
     @Test
     public void testAddMultipleToppings() {
         Order order = new Order();
-        order.addTopping("Sprinkles", 1);
+        order.addTopping("Sprinkles", 2);
         order.addTopping("Chocolate Chips", 1);
 
         Map<String, Integer> toppings = order.getToppingCounts();
@@ -58,4 +58,4 @@ public class OrderTest {
 
 
 
-}
+
