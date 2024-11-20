@@ -2,6 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Order {
+
     private final Map<String, Integer> iceCreamScoops = new HashMap<>();
     private final Map<String, Integer> toppingCounts = new HashMap<>();
     private boolean isWaffleCone = false;
